@@ -678,9 +678,10 @@ svg.footer-icon {
 
 .form-footer {
   display: flex;
+  gap: 24px;
 }
 
-.form-footer label {
+.footer-label {
   color: #FFF;
 }
 
@@ -690,12 +691,18 @@ svg.footer-icon {
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid var(--WHITE, #FFF);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding: 8px 16px;
-  margin-right: 24px;
   font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em; 
   outline: transparent;
+  color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
 }
 
 .form-footer:focus-within .footer-input {
@@ -704,6 +711,11 @@ svg.footer-icon {
 
 .icon-planer {
   fill: #FFF;
+  margin-left: 16px;
+}
+
+.subscribe-p {
+  color: #ffffff;
 }
 
 .but-form-footer {
@@ -711,13 +723,16 @@ svg.footer-icon {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: var(--IRIS, #4D5AE5);
   border: none;
+  min-width: 165px; 
   color: #FFF;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .form-button {
