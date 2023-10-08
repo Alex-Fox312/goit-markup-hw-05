@@ -773,16 +773,15 @@ svg.footer-icon {
 
 .visually-hidden:checked + .checkbox .privacy {
   background-color: #404bbf;
-}
-
-.visually-hidden:checked + .checkbox .privacy use {
   fill: #f4f4fd;
+  border: none;
 }
 
 .visually-hidden:checked + .checkbox .privacy + a.policy {
   color: #4d5ae5;
   text-decoration: underline;
 }
+
 .policy {
   color: #4d5ae5;
 }
