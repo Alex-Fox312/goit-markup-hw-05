@@ -771,7 +771,7 @@ svg.footer-icon {
   fill: transparent; 
 }
 
-.visually-hidden:checked  {
+.visually-hidden:checked + span .privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -806,7 +806,7 @@ svg.footer-icon {
   resize: none;
 }
 
-.checkbox.line{
+.checkbox {
   color: var(--LIGHT-SLATE, #8E8F99);
 font-weight: 400;
 font-size: 12px;
